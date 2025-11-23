@@ -1,0 +1,77 @@
+[
+  {
+    "id": "T1021.005",
+    "name": "Remote Services: VNC",
+    "tactic": "Lateral Movement",
+    "port": 5900,
+    "attack_count": 159,
+    "countries": {
+      "United States": 101,
+      "China": 23,
+      "Canada": 16
+    }
+  },
+  {
+    "id": "T1071.001",
+    "name": "Web Protocols",
+    "tactic": "Command and Control",
+    "port": 443,
+    "attack_count": 40,
+    "countries": {
+      "Brazil": 34,
+      "-": 6
+    }
+  },
+  {
+    "id": "T1499",
+    "name": "Endpoint Denial of Service",
+    "tactic": "Impact",
+    "port": 5060,
+    "attack_count": 46,
+    "countries": {
+      "United States": 43,
+      "Germany": 2,
+      "Hong Kong": 1
+    }
+  },
+  {
+    "id": "T1071.004",
+    "name": "DNS",
+    "tactic": "Command and Control",
+    "port": 53,
+    "attack_count": 9,
+    "countries": {
+      "-": 9
+    }
+  },
+  {
+    "id": "T1071.002",
+    "name": "File Transfer Protocols",
+    "tactic": "Command and Control",
+    "port": 21,
+    "attack_count": 20,
+    "countries": {
+      "Indonesia": 20
+    }
+  },
+  {
+    "id": "T1021.004",
+    "name": "Remote Services: SSH",
+    "tactic": "Lateral Movement",
+    "port": 22,
+    "attack_count": 6,
+    "countries": {
+      "The Netherlands": 6
+    }
+  },
+  {
+    "id": "T1071.001",
+    "name": "Web Protocols",
+    "tactic": "Command and Control",
+    "port": 80,
+    "attack_count": 1,
+    "countries": {
+      "-": 1
+    }
+  }
+]

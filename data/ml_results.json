@@ -1,0 +1,35 @@
+{
+  "accuracy": 0.9565217391304348,
+  "total_samples": 305,
+  "unique_ips": 71,
+  "attack_categories": {
+    "VNC": 159,
+    "SIP": 46,
+    "Web": 41,
+    "Other": 33,
+    "FTP": 20,
+    "SSH": 6
+  },
+  "feature_importance": [
+    {
+      "Feature": "port_clean",
+      "Importance": 0.6081929341212127
+    },
+    {
+      "Feature": "country_encoded",
+      "Importance": 0.26349387112329603
+    },
+    {
+      "Feature": "proto_encoded",
+      "Importance": 0.12831319475549124
+    },
+    {
+      "Feature": "hour",
+      "Importance": 0.0
+    },
+    {
+      "Feature": "day_of_week",
+      "Importance": 0.0
+    }
+  ]
+}
